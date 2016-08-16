@@ -1,0 +1,10 @@
+<h1>Ranking#want</h1>
+<ul>
+    <li>
+      Want:<br>
+      <% @items_want.each.with_index(1)  do |item,index| %>
+      <%="#{index}"%>
+      <%= item.title %><br>
+    <% end %>
+    </li>
+</ul>

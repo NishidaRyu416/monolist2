@@ -1,0 +1,10 @@
+<h1>Ranking#have</h1>
+<ul>
+    <li>
+    Have:<br>
+    <% @items_have.each.with_index(1)  do |item,index| %>
+      <%="#{index}"%>
+      <%= item.title %><br>
+    <% end %>
+    </li>
+</ul>
